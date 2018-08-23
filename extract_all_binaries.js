@@ -111,7 +111,7 @@ var getAgentCorePlatformVersionDownloadURL = function() {
 };
 
 var getAppMetricsPlatformVersionDownloadURL = function() {
-  return [10 + '/appmetrics', APPMETRICS_VERSION, getPlatform()].join('-') + '.tgz';
+  return [8 + '/appmetrics', APPMETRICS_VERSION, getPlatform()].join('-') + '.tgz';
 };
 
 var getWindowsRedisFiles = function() {
