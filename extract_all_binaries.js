@@ -95,7 +95,7 @@ var ensureSupportedPlatformOrExit = function() {
 };
 
 var getSupportedNodeVersionOrExit = function() {
-  var supportedMajorVersions = 'v4, v5, v6, v7, v8';
+  var supportedMajorVersions = 'v4, v5, v6, v7, v8, v10';
   // version strings are of the format 'vN.N.N' where N is a positive integer.
   // we want the first N.
   var majorVersion = process.version.substring(1, process.version.indexOf('.'));
